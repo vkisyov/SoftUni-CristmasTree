@@ -14,7 +14,7 @@ namespace SoftUniTesting
             for (int i = 0; i <= n; ++i)
             {
                 string str1 = new string('*', i);
-                string str2 = new string(' ', i);
+                string str2 = new string(' ', n - i);
                 Console.Write(str2);
                 Console.Write(str1);
                 Console.Write(" | ");
